@@ -1,0 +1,11 @@
+{
+  "name": "nouraldinfarge-profile",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "markdownlint-cli2 README.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.23.2"
+  }
+}
