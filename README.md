@@ -4,7 +4,7 @@ I’m a Chicago-based software engineer who builds desktop and local-first syste
 
 My 2026 portfolio includes **three verified public Windows releases and one source-free engineering case study**. The work spans React/TypeScript, Rust/Tauri, Electron, Python, SQLite, defensive import pipelines, versioned contracts, and reproducible release automation.
 
-[Portfolio](https://nouraldin-farge-portfolio.site) · [Résumé](https://nouraldin-farge-portfolio.site/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
+[Portfolio](https://nouraldinfarge.github.io) · [Résumé](https://nouraldinfarge.github.io/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
 
 ## Selected work — 2026
 
