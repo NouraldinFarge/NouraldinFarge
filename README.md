@@ -6,7 +6,7 @@ My 2026 portfolio includes **three verified public Windows releases and one sour
 
 [Portfolio](https://nouraldinfarge.github.io) · [Résumé](https://nouraldinfarge.github.io/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
 
-## Selected work — 2026
+## Projects — 2026
 
 | Project | Engineering signal | Availability |
 | --- | --- | --- |
