@@ -4,7 +4,7 @@ I build user-facing products with **React and TypeScript**, then carry them thro
 
 I’m based in Chicago and open to software engineering roles across frontend, full-stack product development, and desktop applications.
 
-[Portfolio](https://nouraldinfarge.github.io) · [Résumé](https://nouraldinfarge.github.io/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
+[Portfolio](https://nouraldinfarge.github.io) · [Portfolio source](https://github.com/NouraldinFarge/portfolio-source) · [Résumé](https://nouraldinfarge.github.io/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
 
 ## Projects
 
@@ -49,6 +49,22 @@ A guarded Electron/React workflow for bilingual catalog enrichment. It keeps sou
 [Case study](https://github.com/NouraldinFarge/research-studio-case-study) · [Verification evidence](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/verification-evidence.md) · [Threat model](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/threat-model.md)
 
 The implementation, builds, catalog, browser material, and private diagnostics are not public. The case-study repository contains only redistribution-safe documentation and synthetic examples.
+
+## Active public-source prereleases
+
+These repositories are open for code review while their project-specific release gates remain open. They are active prerelease work—not supported product releases or download recommendations. The [portfolio’s active-source section](https://nouraldinfarge.github.io/#active-source) keeps them visually separate from the shipped projects above.
+
+### [Reader](https://github.com/NouraldinFarge/Reader) · public-source alpha
+
+A local-first Windows reading-library alpha for EPUB, PDF, text, and authorized audio workflows. There is no supported public binary release.
+
+### [Media Scout](https://github.com/NouraldinFarge/media-scout-downloader) · public-source prerelease
+
+A permission-scoped Manifest V3 Chrome extension for media discovery and authorized downloads. There is no supported binary or Chrome Web Store release.
+
+### [SiteWipe](https://github.com/NouraldinFarge/SiteWipe) · public-source prerelease
+
+A safety-engineering project for reviewed, target-scoped browser-data cleanup. Release gates remain open; there is no supported binary or extension-store release.
 
 ## How I engineer products
 
