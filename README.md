@@ -1,8 +1,8 @@
-# Hi, I’m Nouraldin Farge
+# Nouraldin Farge — Software Engineer
 
-I’m a Chicago-based software engineer who builds desktop and local-first systems where reliability, privacy, and honest product boundaries matter as much as the interface.
+I build user-facing products with **React and TypeScript**, then carry them through data design, testing, documentation, and release. My strongest differentiator is turning complex or sensitive workflows into dependable local-first software with clear product boundaries.
 
-My 2026 portfolio includes **three evidence-backed public Windows releases and one source-free engineering case study**. The work spans React/TypeScript, Rust/Tauri, Electron, Python, SQLite, defensive import pipelines, versioned contracts, and reproducible release automation.
+I’m based in Chicago and open to software engineering roles across frontend, full-stack product development, and desktop applications.
 
 [Portfolio](https://nouraldinfarge.github.io) · [Résumé](https://nouraldinfarge.github.io/Nouraldin-Farge-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/)
 
@@ -10,46 +10,65 @@ My 2026 portfolio includes **three evidence-backed public Windows releases and o
 
 ### [DrawScope](https://github.com/NouraldinFarge/drawscope) · v0.6.5
 
-Reproducible 41,598-row data lineage and 250 leakage-resistant walk-forward trials across six games. Built with React, Rust/Tauri, Python, and SQLite.
+A React/Tauri research workbench that makes data lineage, methodology, and product limits visible instead of presenting historical lottery patterns as predictions.
 
-[Source](https://github.com/NouraldinFarge/drawscope) · [Windows release](https://github.com/NouraldinFarge/drawscope/releases/tag/v0.6.5) · [Methodology](https://github.com/NouraldinFarge/drawscope/blob/main/docs/METHODOLOGY.md)
+- 41,598 deduplicated draws across six games
+- 250 leakage-resistant walk-forward trials with a 60/40 discovery–confirmation split
+- Reproducible SQLite archive, cross-language contract tests, checksum, SBOM, and provenance
+
+[Repository](https://github.com/NouraldinFarge/drawscope) · [Windows release](https://github.com/NouraldinFarge/drawscope/releases/tag/v0.6.5) · [Methodology](https://github.com/NouraldinFarge/drawscope/blob/main/docs/METHODOLOGY.md)
 
 ### [GameVault](https://github.com/NouraldinFarge/gamevault) · v0.3.5
 
-Portable library management and review-gated ZIP intake that blocks traversal, unsafe paths, and link/reparse entries. Built with React, Rust/Tauri, and SQLite.
+A portable React/Tauri game library and launcher with a review-gated archive intake pipeline for user-owned files.
 
-[Source](https://github.com/NouraldinFarge/gamevault) · [Windows release](https://github.com/NouraldinFarge/gamevault/releases/tag/v0.3.5) · [Safety model](https://github.com/NouraldinFarge/gamevault#safety-model)
+- Blocks traversal, unsafe Windows paths, links, reparse entries, and decompression abuse
+- Uses a relative-path SQLite catalog, launch history, backups, and rollback
+- Ships with focused Rust and React/Vitest coverage, checksum, SBOM, and provenance
 
-### [Day-Trading Teacher](https://github.com/NouraldinFarge/day-trading-teacher) · v0.32.6
+[Repository](https://github.com/NouraldinFarge/gamevault) · [Windows release](https://github.com/NouraldinFarge/gamevault/releases/tag/v0.3.5) · [Safety model](https://github.com/NouraldinFarge/gamevault#safety-model)
 
-Nine-lesson environment connecting decision plans, historical replay, paper practice, journaling, reflection, and spaced review—without live signals, investment advice, or order execution. Built with React, Rust/Tauri, local JSON, and Zod.
+### [Day-Trading Teacher](https://github.com/NouraldinFarge/day-trading-teacher) · v0.36.0 public release
 
-[Source](https://github.com/NouraldinFarge/day-trading-teacher) · [Windows release](https://github.com/NouraldinFarge/day-trading-teacher/releases/tag/v0.32.6) · [Project tour](https://github.com/NouraldinFarge/day-trading-teacher#five-minute-project-tour)
+A 13-lesson local-first learning environment that connects decision planning, historical replay, paper practice, journaling, reflection, and spaced review.
 
-### [Research Studio](https://github.com/NouraldinFarge/research-studio-case-study) · v0.1.0-alpha.21
+- Implements deterministic decimal risk and expectancy calculations in Rust
+- Validates lesson imports with Zod and preserves provenance in Fidelity trade-history review
+- Intentionally excludes brokerage access, live signals, investment advice, and order execution
 
-Guarded bilingual Chinese-and-English catalog enrichment validated against 31,521 series and 2,242,170 episodes, with read-only sources, batches capped at five, untrusted-output validation, human approval, and recoverable exports. Built with Electron, React, TypeScript, Express, and SQLite.
+[Repository](https://github.com/NouraldinFarge/day-trading-teacher) · [Windows release](https://github.com/NouraldinFarge/day-trading-teacher/releases/tag/v0.36.0) · [Project tour](https://github.com/NouraldinFarge/day-trading-teacher#five-minute-project-tour)
 
-[Source-free case study](https://github.com/NouraldinFarge/research-studio-case-study) · [Verification evidence](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/verification-evidence.md) · [Threat model](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/threat-model.md)
+### [Research Studio](https://github.com/NouraldinFarge/research-studio-case-study) · private build v0.1.0-alpha.24
 
-Research Studio’s implementation, builds, catalog, browser material, and private diagnostics are intentionally not public. The repository publishes only redistribution-safe documentation and synthetic examples.
+A guarded Electron/React workflow for bilingual catalog enrichment. It keeps source data read-only, treats model output as untrusted, requires human approval, and exports only versioned approved metadata.
 
-## How I engineer
+- Validated against 31,521 series and 2,242,170 episodes without changing the source database hash
+- Uses isolated working copies, schema and evidence gates, batches capped at five, and recoverable exports
+- Documented in a public, source-free case-study snapshot published August 15, 2026
 
-- Keep user data local, portable, and recoverable.
-- Put filesystem, database, process, browser, and model authority behind explicit boundaries.
+[Case study](https://github.com/NouraldinFarge/research-studio-case-study) · [Verification evidence](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/verification-evidence.md) · [Threat model](https://github.com/NouraldinFarge/research-studio-case-study/blob/main/docs/threat-model.md)
+
+The implementation, builds, catalog, browser material, and private diagnostics are not public. The case-study repository contains only redistribution-safe documentation and synthetic examples.
+
+## How I engineer products
+
+- Start with the user workflow, the decision the product supports, and the failure state it must explain.
+- Keep filesystem, database, process, browser, and model authority behind explicit boundaries.
 - Validate imported data with schemas, provenance, deterministic rules, and human review.
-- Treat tests, checksums, SBOMs, attestations, and documented manual gates as product evidence.
-- State methodology, licensing, and product limits directly—especially in analytics and financial education.
+- Test behavior across UI, domain logic, persistence, and release paths.
+- Publish evidence with product claims: documentation, automated checks, checksums, SBOMs, and provenance where applicable.
 
-## Ownership and AI-assisted development
+## AI-assisted development and accountability
 
-AI agents support research, implementation, test generation, and iteration. I remain responsible for product direction, architecture, technical review, verification, safety and licensing boundaries, data-source decisions, and final release approval. Agent output is treated as untrusted until it passes repository checks and human review.
+AI agents assist with research, implementation, test generation, and iteration. I remain responsible for product direction, architecture, technical review, verification, safety and licensing boundaries, data-source decisions, published claims, and final release approval. Agent output is treated as untrusted until it passes repository checks and human review.
 
 ## Current stack
 
-TypeScript · React · Rust · Tauri · Electron · Python · SQLite · Node.js/Express · Zod · Playwright · Vitest · pytest · GitHub Actions · CodeQL · Windows release engineering
+- **Product and frontend:** React, TypeScript, JavaScript, HTML/CSS, Vite
+- **Application and backend:** Rust, Tauri, Electron, Node.js, Express, Python
+- **Data and validation:** SQLite, SQL, JSON Schema, Zod
+- **Quality and delivery:** Vitest, Playwright, pytest, Cargo/Clippy, GitHub Actions, CodeQL, SBOMs, checksums, provenance
 
 ## Contact
 
-I’m open to software engineering opportunities involving desktop products, local-first systems, release engineering, and trustworthy AI-assisted workflows. The best public contact is [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/). Project bugs and proposals belong in the relevant repository; suspected vulnerabilities should use private vulnerability reporting.
+The best public contact is [LinkedIn](https://www.linkedin.com/in/nouraldin-farge/). Project bugs and proposals belong in the relevant repository; suspected vulnerabilities should use private vulnerability reporting.
